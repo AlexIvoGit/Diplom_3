@@ -18,6 +18,7 @@
         <slf4j.version>1.7.36</slf4j.version>
         <aspectj.version>1.9.7</aspectj.version>
         <allure.version>2.17.3</allure.version>
+        <rest-assured.version>5.0.1</rest-assured.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
     </properties>
 
@@ -32,27 +33,30 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
             <version>${selenide.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit4</artifactId>
             <version>${allure.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-nop</artifactId>
             <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest-assured.version}</version>
         </dependency>
     </dependencies>
 
